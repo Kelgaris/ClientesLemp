@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./src/meme.jpeg" type="image/x-icon">
+    <link rel="stylesheet" href="./css/añadirCliente.css">
+    <title>Añadir Cliente</title>
+</head>
+<body>
+    <form action="./php/añadirCliente.php" method="post">
+        <fieldset>
+            <legend>Añadir Nuevo Cliente</legend>
+            <input type="text" name="nombre" id="nombre" placeholder="Inserte su nombre: " required>
+            <input type="text" name="apellido1" id="apellido1" placeholder="Inserte su primer apellido: " required>
+            <input type="text" name="apellido2" id="apellido2" placeholder="Inserte su segundo apellido: " required>
+            <input type="text" name="direccion" id="direccion" placeholder="Inserte su direccion actual: " required>
+            <input type="email" name="correo" id="correo" placeholder="Inserte su correo electronico: " required>
+            <input type="text" name="puesto" id="puesto" placeholder="Cual es su puesto como cliente: " required>
+            <button type="submit">Enviar</button>
+            <button type="reset">Limpiar</button>
+        </fieldset>
+    </form>
+</body>
+</html>

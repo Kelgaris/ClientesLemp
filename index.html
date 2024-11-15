@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./src/meme.jpeg" type="image/x-icon">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Inicio de Sesion</title>
+</head>
+<body>
+    <form action="./php/guardarDatos.php" method="post">
+        <fieldset>
+            <legend>Inicio de Sesión</legend>
+            <input type="text" name="usuario" id="usuario" placeholder="Inserte su usuario:" required>
+            <input type="password" name="password" id="password" placeholder="Inserte su contraseña:" required>
+            <a href="clientes.html"><button class="enviar" type="submit">Enviar</button></a>
+            <button type="reset">Limpiar</button>
+        </fieldset>
+    </form>
+</body>
+</html>

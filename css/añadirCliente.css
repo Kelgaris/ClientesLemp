@@ -1,0 +1,72 @@
+body {
+    background-color: bisque;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+fieldset {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    margin: auto;
+    margin-top: 5%;
+    padding: 2%;
+    color: rgb(44, 44, 236);
+    border: 2px solid rgb(44, 44, 236);
+    background-color: rgb(78, 123, 221);
+    border-radius: 5px;
+}
+
+legend {
+    font-size: 25px;
+    color: white;
+    border-color: blue;
+    border-width: 2px;
+    border-style: solid;
+    background-color: blue;
+    border-radius: 5px;
+    padding: 1.5%;
+    text-align: center;
+}
+
+input[type="text"],
+input[type="email"] {
+    margin-bottom: 3%;
+    width: 80%;
+    border-radius: 4px;
+    padding: 1% 2%;
+    border: 1px solid rgb(44, 44, 236);
+}
+
+button {
+    margin-bottom: 2%;
+    width: 40%;
+    padding: 1.5% 0;
+    text-decoration: none;
+    border-radius: 5px;
+    border: 1px solid rgb(44, 44, 236);
+    color: white;
+    background-color: rgb(44, 44, 236);
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: rgb(34, 34, 180);
+}
+
+/* Botón de enviar */
+button[type="submit"] {
+    background-color: white;
+    color: rgb(34, 34, 180);
+}
+
+button[type="reset"] {
+    background-color: rgb(236, 98, 44);
+    color: white;
+}
+
+button[type="reset"]:hover {
+    background-color: rgb(200, 60, 30);
+}
